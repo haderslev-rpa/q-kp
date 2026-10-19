@@ -1,0 +1,12 @@
+KP_BASE_URL = "https://fagsystem.kommunernespensionssystem.dk/spk-fagsystem"
+KP_START_URL = f"{KP_BASE_URL}/opgaveindbakke"
+KP_DOMAIN = "fagsystem.kommunernespensionssystem.dk"
+KP_PATH = "/spk-fagsystem"
+KP_OPGAVEINDBAKKE_PATH = "/spk-fagsystem/opgaveindbakke"
+KP_CREDENTIAL_NAME = "DIRXHEL"
+KP_MUNICIPALITY = "Haderslev Kommune"
+KP_ACTION_TIMEOUT_MS = 30_000
+KP_NAVIGATION_TIMEOUT_MS = 120_000
+KP_LOGIN_TIMEOUT_MS = 120_000
+KP_API_TIMEOUT_MS = 120_000
+KP_POLL_INTERVAL_MS = 500

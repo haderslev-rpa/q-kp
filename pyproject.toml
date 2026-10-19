@@ -1,13 +1,13 @@
 [project]
-name = "q-skabelon-object"
+name = "q-kp"
 version = "0.1.0"
-description = "object skabelon"
+description = "Object til Kommunernes Pensionssystem"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "playwright>=1.59.0",
     "automation-server-client",
     "q-haderslev-vbo",
-    "requests>=2.31.0",
 ]
 
 [tool.uv.sources]
@@ -19,4 +19,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["q_skabelon_object"] #Husk det "ikke" skal være bindestreg
+packages = ["q_kp"]
